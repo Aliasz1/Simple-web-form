@@ -1,3 +1,17 @@
-.p {
-    font-size: 50px;
+body {
+    background-image: linear-gradient(to right, rgb(144, 255, 255), rgb(52, 159, 159));
+    height: 100%;
+    width: 100%;
+}
+
+.form {
+    text-align: center;
+    border-style: hidden;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 1px 1px 10px rgb(199, 240, 255);
+    background-color: aliceblue;
 }
