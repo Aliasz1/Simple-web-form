@@ -2,6 +2,7 @@ body {
     background-image: linear-gradient(to right, rgb(144, 255, 255), rgb(52, 159, 159));
     height: 100%;
     width: 100%;
+    margin: 0px;
 }
 
 
