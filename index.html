@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en=US">
 <head>
-<title>Page Title</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="body">
         
         <div class="header">
             <a href="#home">Home</a>
-            <a href="#contact">Contact</a>
             <a href="#about">About</a>
             <a href="#Sign">Sign in</a>
         </div>
@@ -17,6 +17,21 @@
         <div class="form">
             <h1>This is a Form Heading</h1>
             <p>This is an example paragraph.</p>
+            <div></div>
+            <form id="form" onsubmit="alert('Submission successful');"> <!--Simple alert form submission--> 
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Insert email" name="email"><br>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Insert name" name="name"><br>
+
+                <label for="pwd">Password</label>
+                <input type="password" id="pwd" placeholder="Password" name="pwd"><br>
+
+                <input type="submit" value="Submit" id="submit">
+
+            </form>
         </div>
 
         <div class="footer">
