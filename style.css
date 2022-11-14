@@ -3,8 +3,12 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
-    background-image: linear-gradient(to right, rgb(144, 255, 255), rgb(52, 159, 159));
+    background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(29, 29, 29), teal, rgb(29, 29, 29), rgb(29, 29, 29));
     height: 100%;
     width: 100%;
     margin: 0px;
@@ -17,7 +21,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .header a {
@@ -51,6 +54,7 @@ body {
     padding-bottom: 50px;
     box-shadow: 1px 1px 10px rgb(199, 240, 255);
     background-color: aliceblue;
+    margin-top: 12rem;
 }
 
 label {
