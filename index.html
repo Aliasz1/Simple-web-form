@@ -2,6 +2,8 @@
 <html lang="en=US">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Simple web form">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Title</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -9,6 +11,7 @@
     <div class="body">
         
         <div class="header">
+            <a href="#title">Title</a>
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#Sign">Sign in</a>
@@ -17,8 +20,8 @@
         <div class="form">
             <h1>This is a Form Heading</h1>
             <p>This is an example paragraph.</p>
-            <div></div>
-            <form id="form" onsubmit="alert('Submission successful');"> <!--Simple alert form submission--> 
+            
+            <form id="form" onsubmit="alert('Submission successful');">
 
                 <label for="email">Email</label>
                 <input type="email" id="email" placeholder="Insert email" name="email"><br>
